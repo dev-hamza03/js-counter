@@ -25,12 +25,12 @@ main {
     height: 100%;
     display: flex;
     justify-content: center;
+    padding: 2rem;
 
 }
 
 .container {
     padding-top: 3rem;
-    margin: 2rem;
     width: 100%;
     height: 50%;
     @include flex-centre(1.5rem);
@@ -47,7 +47,7 @@ main {
     h2 {
         font-size: 3rem;
         font-weight: 300;
-        color:  #2c5edcdf;
+        color: #2c5edcdf;
     }
 
     .btns {
@@ -70,7 +70,7 @@ main {
     }
 
     .bottom {
-        padding-top: 1rem;
+        padding-top: .5rem;
 
         button {
             padding: .8rem 1.5rem;
